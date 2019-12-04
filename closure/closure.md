@@ -15,7 +15,7 @@
 1. Inspect `blabLater` and `blabAgainLater` in your console. Call them (they are functions!) and see what happens!
 
 
-1. Write a function with a closure. The first function should only take one argument, someone's first name, and the inner function should take one more argument, someone's last name. The inner function should console.log both the first name and the last name.
+2. Write a function with a closure. The first function should only take one argument, someone's first name, and the inner function should take one more argument, someone's last name. The inner function should console.log both the first name and the last name.
 	```javascript
 	var lastNameTrier = function(firstName){
 	   //does stuff
@@ -36,7 +36,7 @@
 	```
 
 
-1. Create a `storyWriter` function that returns an object with two methods. One method, `addWords` adds a word to your story and returns the story while the other one, `erase`, resets the story back to an empty string. Here is an implementation:
+3. Create a `storyWriter` function that returns an object with two methods. One method, `addWords` adds a word to your story and returns the story while the other one, `erase`, resets the story back to an empty string. Here is an implementation:
 	```javascript
 	var farmLoveStory = storyWriter();
 	farmLoveStory.addWords('There was once a lonely cow.'); // 'There was once a lonely cow.'
